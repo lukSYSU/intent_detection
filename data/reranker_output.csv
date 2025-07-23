@@ -1,0 +1,165 @@
+pair,score
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的数据库启动不了，提示""FATAL: failed to translate name to xlog in GetOldestXLOGSegNo""，好像是WAL日志出了问题，这该怎么解决啊？
+<Document>: 启动数据库时因WAL日志问题报错：FATAL: failed to translate name to xlog in GetOldestXLOGSegNo、如何排查和解决这个问题？",0.9998432993888855
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的数据库启动不了，提示""FATAL: failed to translate name to xlog in GetOldestXLOGSegNo""，好像是WAL日志出了问题，这该怎么解决啊？
+<Document>: 启动数据库时因WAL日志问题报错：FATAL: failed to translate name to xlog in GetOldestXLOGSegNo、如何排查和解决这个问题？",0.9998432993888855
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的数据库启动不了，提示""FATAL: failed to translate name to xlog in GetOldestXLOGSegNo""，好像是WAL日志出了问题，这该怎么解决啊？
+<Document>: 在磐维数据库使用中，遇到告警信息：错误编号 GAUSS-04018，告警内容 ""could not translate host name '%s' to address: %s"" 。如何排查和解决这个问题？",0.9795816540718079
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的数据库启动不了，提示""FATAL: failed to translate name to xlog in GetOldestXLOGSegNo""，好像是WAL日志出了问题，这该怎么解决啊？
+<Document>: 在磐维数据库使用中，因磁盘空间不足，在清理xlog后导致数据库启动失败，应该如何解决故障？",0.9629464745521545
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的数据库启动不了，提示""FATAL: failed to translate name to xlog in GetOldestXLOGSegNo""，好像是WAL日志出了问题，这该怎么解决啊？
+<Document>: 无法启动数据库。报错提示：FATAL:  could not locate a valid checkpoint record    、如何排查和解决这个问题",0.02530924789607525
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我在用磐维数据库查数据的时候，想用instr函数找字符串位置，结果报错了，提示说什么""function instr(text, unknown, integer, bigint) does not exist""。这到底是什么意思啊？我该怎么解决这个问题？
+<Document>: 在磐维数据库中使用 instr 函数时报错：ERROR: function instr(text, unknown, integer, bigint) does not exist、如何排查和解决这个问题？",0.9999029636383057
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我在用磐维数据库查数据的时候，想用instr函数找字符串位置，结果报错了，提示说什么""function instr(text, unknown, integer, bigint) does not exist""。这到底是什么意思啊？我该怎么解决这个问题？
+<Document>: 在磐维数据库中使用 instr 函数时报错：ERROR: function instr(text, unknown, integer, bigint) does not exist。如何排查和解决这个问题？",0.9998263716697693
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我在用磐维数据库查数据的时候，想用instr函数找字符串位置，结果报错了，提示说什么""function instr(text, unknown, integer, bigint) does not exist""。这到底是什么意思啊？我该怎么解决这个问题？
+<Document>: 磐维数据库中，对字段进行加密时遇到报错ERROR: function pgp_sym_encrypt(text, unknown) does not exist应如何排查和解决",0.756137490272522
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我在用磐维数据库查数据的时候，想用instr函数找字符串位置，结果报错了，提示说什么""function instr(text, unknown, integer, bigint) does not exist""。这到底是什么意思啊？我该怎么解决这个问题？
+<Document>: 在磐维数据库中,查询中使用 IN 表达式时，为什么返回“语法错误”？
+报错信息：
+ERROR: syntax error at or near ""IN""
+DETAIL: IN expression requires a valid list of values enclosed in parentheses.",0.33181247115135193
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我在用磐维数据库查数据的时候，想用instr函数找字符串位置，结果报错了，提示说什么""function instr(text, unknown, integer, bigint) does not exist""。这到底是什么意思啊？我该怎么解决这个问题？
+<Document>: 在磐维数据库中调用自定义函数时，提示函数未找到或参数错误，具体该如何调用自定义函数？调用后结果不符合预期，如何排查问题？",0.017952684313058853
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的数据库审计文件打不开了，提示说找不到""audit""这个索引文件，该怎么办啊？
+<Document>: 在磐维数据库中，audit_directory的设置需要注意哪些事项?",0.9998589754104614
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的数据库审计文件打不开了，提示说找不到""audit""这个索引文件，该怎么办啊？
+<Document>: 在磐维数据库中审计索引文件无法打开报错：FATAL: could not open audit index table file 'audit': No such file or directory。如何排查和解决这个问题？",0.9998131394386292
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的数据库审计文件打不开了，提示说找不到""audit""这个索引文件，该怎么办啊？
+<Document>: 在磐维数据库中审计索引文件无法打开报错：FATAL: could not open audit index table file 'audit': No such file or directory、如何排查和解决这个问题？",0.9296311140060425
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的数据库审计文件打不开了，提示说找不到""audit""这个索引文件，该怎么办啊？
+<Document>: 安全审计日志轮转失败。报错提示：ERROR: failed to rotate audit log file 'audit_20230101.log'、如何排查和解决这个问题",0.9138238430023193
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的数据库审计文件打不开了，提示说找不到""audit""这个索引文件，该怎么办啊？
+<Document>: 审计日志写入失败，安全策略失效。报错提示：ERROR: failed to write audit log to '/var/log/audit'、如何排查和解决这个问题",0.8645676374435425
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我用的数据迁移工具提示建表失败，说""自增列必须设置为主键""，导致业务系统连不上数据库。这到底是怎么回事啊？该怎么解决？
+<Document>: 迁移工具报错，目标表无法创建，业务程序无法连接数据库：Incorrect table definition, auto increment column must be defined as a key。如何排查和解决这个问题？",0.9998053908348083
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我用的数据迁移工具提示建表失败，说""自增列必须设置为主键""，导致业务系统连不上数据库。这到底是怎么回事啊？该怎么解决？
+<Document>: 因服务器宕机，网络中断等原因导致节点脱离灾备数据库实例，没有参与灾备数据库实例升主，该怎么解决？",0.9997578859329224
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我用的数据迁移工具提示建表失败，说""自增列必须设置为主键""，导致业务系统连不上数据库。这到底是怎么回事啊？该怎么解决？
+<Document>: 迁移工具报错，目标表无法创建，业务程序无法连接数据库：Incorrect table definition, auto increment column must be defined as a key、如何排查和解决这个问题？",0.9689090847969055
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我用的数据迁移工具提示建表失败，说""自增列必须设置为主键""，导致业务系统连不上数据库。这到底是怎么回事啊？该怎么解决？
+<Document>: 在搭建容灾关系过程中，由于主集群内的主dn发生切换，灾备集群连接主集群进行数据build时断连导致搭建失败，该怎么解决？",0.008612707257270813
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我用的数据迁移工具提示建表失败，说""自增列必须设置为主键""，导致业务系统连不上数据库。这到底是怎么回事啊？该怎么解决？
+<Document>: ERROR: SYNTAX_ERROR [42601]: Missing 'PRIMARY KEY' in CREATE TABLE statement   触发原因或解决方法：建表语句未包含必要约束（如主键、非空）",0.001746533322148025
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的数据库启动不了，一直报错说WAL日志有问题，具体提示是""failed to translate name to xlog in GetOldestXLOGSegNo""。这到底是怎么回事啊？我该怎么做才能解决这个问题让数据库正常启动？
+<Document>: 启动数据库时因WAL日志问题报错：FATAL: failed to translate name to xlog in GetOldestXLOGSegNo、如何排查和解决这个问题？",0.9998417496681213
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的数据库启动不了，一直报错说WAL日志有问题，具体提示是""failed to translate name to xlog in GetOldestXLOGSegNo""。这到底是怎么回事啊？我该怎么做才能解决这个问题让数据库正常启动？
+<Document>: 启动数据库时因WAL日志问题报错：FATAL: failed to translate name to xlog in GetOldestXLOGSegNo、如何排查和解决这个问题？",0.9998417496681213
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的数据库启动不了，一直报错说WAL日志有问题，具体提示是""failed to translate name to xlog in GetOldestXLOGSegNo""。这到底是怎么回事啊？我该怎么做才能解决这个问题让数据库正常启动？
+<Document>: 在磐维数据库使用中，遇到告警信息：错误编号 GAUSS-04018，告警内容 ""could not translate host name '%s' to address: %s"" 。如何排查和解决这个问题？",0.9688727855682373
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的数据库启动不了，一直报错说WAL日志有问题，具体提示是""failed to translate name to xlog in GetOldestXLOGSegNo""。这到底是怎么回事啊？我该怎么做才能解决这个问题让数据库正常启动？
+<Document>: 在磐维数据库使用中，因磁盘空间不足，在清理xlog后导致数据库启动失败，应该如何解决故障？",0.5273759365081787
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的数据库启动不了，一直报错说WAL日志有问题，具体提示是""failed to translate name to xlog in GetOldestXLOGSegNo""。这到底是怎么回事啊？我该怎么做才能解决这个问题让数据库正常启动？
+<Document>: 磐维数据库进行switchover过程中，出现ERROR: could not read WAL log file 报错，该如何分析？",0.012069931253790855
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我在用磐维数据库查数据的时候，输入instr函数就报错说这个函数不存在，提示是""function instr(text, unknown, integer, bigint) does not exist""。明明参数都按要求填了，为什么还是报错啊？该怎么解决这个问题？
+<Document>: 在磐维数据库中使用 instr 函数时报错：ERROR: function instr(text, unknown, integer, bigint) does not exist。如何排查和解决这个问题？",0.999799907207489
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我在用磐维数据库查数据的时候，输入instr函数就报错说这个函数不存在，提示是""function instr(text, unknown, integer, bigint) does not exist""。明明参数都按要求填了，为什么还是报错啊？该怎么解决这个问题？
+<Document>: 在磐维数据库中使用 instr 函数时报错：ERROR: function instr(text, unknown, integer, bigint) does not exist、如何排查和解决这个问题？",0.9996675252914429
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我在用磐维数据库查数据的时候，输入instr函数就报错说这个函数不存在，提示是""function instr(text, unknown, integer, bigint) does not exist""。明明参数都按要求填了，为什么还是报错啊？该怎么解决这个问题？
+<Document>: 磐维数据库中，对字段进行加密时遇到报错ERROR: function pgp_sym_encrypt(text, unknown) does not exist应如何排查和解决",0.8643966913223267
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我在用磐维数据库查数据的时候，输入instr函数就报错说这个函数不存在，提示是""function instr(text, unknown, integer, bigint) does not exist""。明明参数都按要求填了，为什么还是报错啊？该怎么解决这个问题？
+<Document>: 在磐维数据库中,查询中使用 IN 表达式时，为什么返回“语法错误”？
+报错信息：
+ERROR: syntax error at or near ""IN""
+DETAIL: IN expression requires a valid list of values enclosed in parentheses.",0.7104639410972595
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我在用磐维数据库查数据的时候，输入instr函数就报错说这个函数不存在，提示是""function instr(text, unknown, integer, bigint) does not exist""。明明参数都按要求填了，为什么还是报错啊？该怎么解决这个问题？
+<Document>: 在磐维数据库中调用自定义函数时，提示函数未找到或参数错误，具体该如何调用自定义函数？调用后结果不符合预期，如何排查问题？",0.16214798390865326
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的数据库报错提示打不开审计索引文件，显示""FATAL: could not open audit index table file 'audit': No such file or directory""，这个该怎么解决啊？
+<Document>: 在磐维数据库中审计索引文件无法打开报错：FATAL: could not open audit index table file 'audit': No such file or directory。如何排查和解决这个问题？",0.9998458623886108
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的数据库报错提示打不开审计索引文件，显示""FATAL: could not open audit index table file 'audit': No such file or directory""，这个该怎么解决啊？
+<Document>: 在磐维数据库中审计索引文件无法打开报错：FATAL: could not open audit index table file 'audit': No such file or directory、如何排查和解决这个问题？",0.9998045563697815
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的数据库报错提示打不开审计索引文件，显示""FATAL: could not open audit index table file 'audit': No such file or directory""，这个该怎么解决啊？
+<Document>: 审计日志写入失败，安全策略失效。报错提示：ERROR: failed to write audit log to '/var/log/audit'、如何排查和解决这个问题",0.9601780772209167
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的数据库报错提示打不开审计索引文件，显示""FATAL: could not open audit index table file 'audit': No such file or directory""，这个该怎么解决啊？
+<Document>: 执行CREATE Extension oracle_fdw;时，出现 libclntsh.so: cannot open shared object file: No such file or directory报错，应该如何处理故障？",0.16976608335971832
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的数据库报错提示打不开审计索引文件，显示""FATAL: could not open audit index table file 'audit': No such file or directory""，这个该怎么解决啊？
+<Document>: 在磐维数据库运行中，遇到报错信息：Index not found. Please verify the index name and table structure.如何排查和解决这个问题？",0.03576991334557533
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我用的数据迁移工具报错了，说没法创建目标表，导致我的业务程序连不上数据库。错误提示是""Incorrect table definition, auto increment column must be defined as a key""，这个自增列必须设成主键的意思吗？我该从哪里开始检查这个问题啊？
+<Document>: 迁移工具报错，目标表无法创建，业务程序无法连接数据库：Incorrect table definition, auto increment column must be defined as a key。如何排查和解决这个问题？",0.9997943639755249
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我用的数据迁移工具报错了，说没法创建目标表，导致我的业务程序连不上数据库。错误提示是""Incorrect table definition, auto increment column must be defined as a key""，这个自增列必须设成主键的意思吗？我该从哪里开始检查这个问题啊？
+<Document>: 迁移工具报错，目标表无法创建，业务程序无法连接数据库：Incorrect table definition, auto increment column must be defined as a key、如何排查和解决这个问题？",0.9996383190155029
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我用的数据迁移工具报错了，说没法创建目标表，导致我的业务程序连不上数据库。错误提示是""Incorrect table definition, auto increment column must be defined as a key""，这个自增列必须设成主键的意思吗？我该从哪里开始检查这个问题啊？
+<Document>: ERROR: SYNTAX_ERROR [42601]: Missing 'PRIMARY KEY' in CREATE TABLE statement   触发原因或解决方法：建表语句未包含必要约束（如主键、非空）",0.816836953163147
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我用的数据迁移工具报错了，说没法创建目标表，导致我的业务程序连不上数据库。错误提示是""Incorrect table definition, auto increment column must be defined as a key""，这个自增列必须设成主键的意思吗？我该从哪里开始检查这个问题啊？
+<Document>: 在磐维数据库使用中，遇到告警信息：错误编号 GAUSS-01327，告警内容 ""INCREMENT must not be zero"" 。如何排查和解决这个问题？",0.11759764701128006
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我用的数据迁移工具报错了，说没法创建目标表，导致我的业务程序连不上数据库。错误提示是""Incorrect table definition, auto increment column must be defined as a key""，这个自增列必须设成主键的意思吗？我该从哪里开始检查这个问题啊？
+<Document>: 磐维数据库创建表遇到报错ERROR:  table ""table_name"" has too many columns，应如何排查和解决",0.010926899500191212
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的数据库最近特别慢，有时候还会卡死不动。系统提示""LOG: deadlock detected""(检测到死锁)，这到底是怎么回事啊？该怎么做才能让它恢复正常运行？
+<Document>: 事务长时间等待，数据库响应变慢或阻塞。提示：LOG: deadlock detected、如何解决这个问题",0.9997997879981995
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的数据库最近特别慢，有时候还会卡死不动。系统提示""LOG: deadlock detected""(检测到死锁)，这到底是怎么回事啊？该怎么做才能让它恢复正常运行？
+<Document>: 在磐维数据库运行中，遇到告警信息：Deadlock detected. Transaction was rolled back.如何排查和解决这个问题？",0.9992815256118774
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的数据库最近特别慢，有时候还会卡死不动。系统提示""LOG: deadlock detected""(检测到死锁)，这到底是怎么回事啊？该怎么做才能让它恢复正常运行？
+<Document>: 在磐维数据库运行中，遇到错误信息：Error: Deadlock detected during compression operation.如何排查和解决这个问题？",0.9973805546760559
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的数据库最近特别慢，有时候还会卡死不动。系统提示""LOG: deadlock detected""(检测到死锁)，这到底是怎么回事啊？该怎么做才能让它恢复正常运行？
+<Document>: 在磐维数据库使用中，发现数据库日志有如下报错：ERROR: deadlock detected
+DETAIL: Process 47183102150400 waits for ShareLock on transaction 18034; blocked by process 47183356102400.
+Process 47183356102400 waits for ShareLock on transaction 18035; blocked by process 47183102150400.
+HINT: See server log for query details.应该如何检查和处理故障？",0.9966741800308228
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的数据库最近特别慢，有时候还会卡死不动。系统提示""LOG: deadlock detected""(检测到死锁)，这到底是怎么回事啊？该怎么做才能让它恢复正常运行？
+<Document>: 关机时锁死，报错提示：WARNING: deadlock detected while shutting down  、如何排查和解决这个问题",0.973908543586731
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的CM集群所有节点都显示Standby状态，选不出主节点，这该怎么处理啊？
+<Document>: CM集群状态全为 Standby，无法选举主节点、如何排查和解决这个问题",0.9997187256813049
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的CM集群所有节点都显示Standby状态，选不出主节点，这该怎么处理啊？
+<Document>: 集群无法启动，或failover无法进行（无法选出主节点）。使用cm_ctl query -Cvipdw命令查询，Cluster State下pausing状态为Yes，类似于如下显示：
+[   Cluster State   ]
+
+cluster_state   : Normal
+redistributing  : No
+balanced        : Yes
+current_az      : AZ_ALL
+pausing         : Yes
+应该如何处理？",0.9995735287666321
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的CM集群所有节点都显示Standby状态，选不出主节点，这该怎么处理啊？
+<Document>: 切换后主库状态仍为Standby。报错提示：ERROR: standby node is still in recovery mode、如何排查和解决这个问题",0.9891846179962158
+"<Instruct>: Given a web search query, retrieve relevant passages that answer the query
+<Query>: 我的CM集群所有节点都显示Standby状态，选不出主节点，这该怎么处理啊？
+<Document>: 在磐维数据库使用中，如果集群状态异常，没有主节点，高可用CM选主异常，节点状态为standby，数据库不可对外提供服务影响业务。如何解决故障？",0.9839193820953369
