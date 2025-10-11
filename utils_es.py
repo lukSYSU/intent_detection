@@ -36,16 +36,16 @@ def create_reranker(reranker_type, ranker_model_name_or_path, device='cuda:0'):
         raise ValueError(f"不支持的reranker类型: {reranker_type}。支持的类型: 'bge', 'qwen3'")
 
 
-def connect_to_existing_vectorstore(es_connection_args, index_name, embed_model_name_or_path, device):
+def connect_to_existing_vectorstore(es_connection_args, index_name, embedding_model, device):
     """
     连接到已存在的Elasticsearch向量存储（索引）。
+    现在接收已加载的embedding模型实例而非模型路径
     """
     print(f"--- 正在连接到Elasticsearch索引: {index_name} ---")
-    embedding = create_embedding_model(embed_model_name_or_path, device)
     
     try:
         vectorstore = ElasticsearchStore(
-            embedding=embedding,
+            embedding=embedding_model,  # 直接使用传入的模型实例
             index_name=index_name,
             **es_connection_args
         )
