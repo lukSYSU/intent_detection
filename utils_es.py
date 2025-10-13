@@ -171,6 +171,9 @@ def rerank_documents(reranker, query, docs, top_k, verbose=False):
     
     if verbose:
         print("正在重排")
+    print("rerank_documents:")
+    print("query:", query)
+    print("docs:", docs)
     reranked_results = reranker(
         query=query,
         documents=docs,
