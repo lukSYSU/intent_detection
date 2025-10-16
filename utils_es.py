@@ -38,22 +38,40 @@ def create_reranker(reranker_type, ranker_model_name_or_path, device='cuda:0'):
 
 def connect_to_existing_vectorstore(es_connection_args, index_name, embedding_model, device):
     """
-    连接到已存在的Elasticsearch向量存储（索引）。
-    现在接收已加载的embedding模型实例而非模型路径
+    连接到已存在的Elasticsearch向量存储（索引），并验证索引有效性。
+    若索引不存在或结构错误，直接抛出异常。
     """
     print(f"--- 正在连接到Elasticsearch索引: {index_name} ---")
     
     try:
+        # 初始化ElasticsearchStore
         vectorstore = ElasticsearchStore(
-            embedding=embedding_model,  # 直接使用传入的模型实例
+            embedding=embedding_model,
             index_name=index_name,
             **es_connection_args
         )
-        print("成功连接到Elasticsearch索引。")
+        
+        # 获取内置ES客户端
+        es_client = vectorstore.client
+        
+        # 检查索引是否存在
+        if not es_client.indices.exists(index=index_name):
+            raise ValueError(f"索引 {index_name} 不存在")
+        
+        # 检查向量字段映射（假设向量字段名为'vector'）
+        mapping = es_client.indices.get_mapping(index=index_name)
+        if "vector" not in mapping[index_name]["mappings"]["properties"]:
+            raise ValueError(f"索引 {index_name} 缺少向量字段 'vector' 的映射，无法用于检索")
+        
+        print("成功连接到Elasticsearch索引（存在且结构正确）。")
         return vectorstore
+    
+    except ValueError as ve:
+        raise  ValueError(f"索引 {index_name} 不存在")
     except Exception as e:
-        print(f"错误：连接到Elasticsearch索引失败: {e}")
-        return None
+        # 其他错误（如网络连接失败）
+        print(f"连接到Elasticsearch索引时发生错误: {e}")
+        raise Exception(f"无法连接到索引 {index_name}: {str(e)}")
 
 
 # def semantic_vector_recall(vectorstore: ElasticsearchStore, query: str, k: int, verbose: bool = False):
